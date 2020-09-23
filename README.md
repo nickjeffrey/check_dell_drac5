@@ -15,6 +15,14 @@ You should create a low-privilege userid called “monitor” on the DRAC.  We w
 Login to the web interface.
 Click Remote Access, Configuration, Users.
 Select an unused userid (3 in this example)
+<img src=images/drac1.png>
+
+Click Configure User, Next
+<img src=images/drac2.png>
+
+There are several items to select on this screen.  Be sure you get them all.
+<img src=images/drac3.png>
+
 
 If you prefer using the command line to create the low-privilege userid, use these steps:
 
