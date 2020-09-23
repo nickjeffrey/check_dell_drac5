@@ -8,7 +8,9 @@ In a nutshell, the DRAC is a tiny little dedicated processor running a BusyBox-b
 The DRAC allows us to remotely power cycle a hung server, as well as telling us about the hardware status (ie failed fans, disks, etc)
 
 This graphic shows where the DRAC is located on a Dell PowerEdge 1950.  You will notice that the DRAC has its own Ethernet interface.
-![port.png](https://github.com/nickjeffrey/check_dell_drac5/images/port.png) 
+<img src=https://github.com/nickjeffrey/check_dell_drac5/images/port.png
+
+
 You should create a low-privilege userid called “monitor” on the DRAC.  We will use this userid with the monitoring script.
 Login to the web interface.
 Click Remote Access, Configuration, Users.
