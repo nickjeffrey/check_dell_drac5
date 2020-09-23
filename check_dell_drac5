@@ -1,6 +1,6 @@
 #!/usr/bin/perl -sW
 #
-# This is a nagios script will SSH into a Dell DRAC5 management card
+# This is a nagios check to SSH into a Dell DRAC5 management card
 # to check the status of the hardware
 
 
