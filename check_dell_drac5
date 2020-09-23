@@ -286,7 +286,7 @@ sub get_hardware_status {
    #       HealthState             = 5
    #       OperationalStatus       = 2
    #       Description             = PowerEdge 1950
-   #       ElementName             = amsesx01.flyht.com
+   #       ElementName             = esx01.example.com
    #   
    #   
    #
