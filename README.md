@@ -15,6 +15,7 @@ Click Remote Access, Configuration, Users.
 Select an unused userid (3 in this example)
 
 If you prefer using the command line to create the low-privilege userid, use these steps:
+
     ssh administrator@drac
     racadm config -g cfgUserAdmin -i 3 -o cfgUserAdminUserName monitor
     racadm config -g cfgUserAdmin -i 3 -o cfgUserAdminPassword monitor123
@@ -26,6 +27,7 @@ If you prefer using the command line to create the low-privilege userid, use the
     exit
 
 You will need a section similar to the following in the commands.cfg file on the nagios server.
+
       # 'check_dell_drac5' command definition
       define command {
              command_name    check_dell_drac5
@@ -35,6 +37,7 @@ You will need a section similar to the following in the commands.cfg file on the
 
 
 You will need a section similar to the following in the services.cfg file on the nagios server.
+
       # command format is "check_dell_drac5" if you want to use the username/password hardcoded in the script
       # to provide your own username/password, use "check_dell_drac5!username!password"
       define service {
